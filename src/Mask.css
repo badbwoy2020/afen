@@ -1,0 +1,68 @@
+.mask {
+  background: white;
+  padding: 1rem;
+}
+
+.mask__flex {
+  display: flex;
+  align-items: center;
+}
+
+.mask__left {
+  margin-right: 25px;
+  flex: 0.5;
+}
+
+.mask__left > h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  /* identical to box height, or 100% */
+
+  color: #291842;
+}
+
+.mask__left h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+
+  color: rgba(71, 60, 85, 0.6);
+}
+
+.mask__flex .mask__left p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.mask__left .mask__button {
+  border: 1px solid #4d55a6;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-top: 10px;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.mask__left .mask__button > h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  color: #4d55a6;
+}
+
+.mask__right {
+  flex: 0.5;
+}

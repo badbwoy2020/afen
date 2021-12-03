@@ -1,0 +1,15 @@
+.bannerOptions {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.bannerOptions__icon {
+  padding: 10px;
+}
+
+.bannerOptions > h4 {
+  font-weight: 300;
+}

@@ -1,0 +1,96 @@
+.section {
+  background: #e8eafa;
+  width: 100%;
+  height: 574px;
+}
+
+.section__flex {
+  display: flex;
+  align-items: center;
+}
+
+.section__left {
+  margin-left: 20px;
+  flex: 0.5;
+}
+
+.section__left h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  color: #222751;
+}
+
+.section__left > p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 32px;
+  /* or 168% */
+
+  color: #222751;
+}
+
+.section__left ul {
+  color: #624bd0;
+  margin-right: 5px;
+}
+
+.section__left ul > li {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 32px;
+  /* identical to box height, or 168% */
+}
+
+.section__right {
+  flex: 0.5;
+}
+/* 
+.section__rightContainer {
+  position: relative;
+  width: 573px;
+  height: 423px;
+  left: 727px;
+  top: 913px;
+
+  background: url("../src/assets/icons/animation.svg");
+} */
+
+.section__rightCard {
+  background: #ffffff;
+  border: 0.5px solid #4d55a6;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+}
+
+.section__rightCard .section__text {
+  text-align: right;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.section__rightCard .section__info {
+  display: flex;
+  align-items: center;
+}
+/* 
+.section__rightCard .target__1 {
+  position: absolute;
+  width: 150pxpx;
+  height: 85px;
+  left: 300px;
+} */
+
+.section__rightCard .section__info > .section__infoPic {
+  margin-right: 3px;
+  margin-left: 3px;
+}

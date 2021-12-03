@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list > h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+}
+
+.list__countries {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 250px;
+}
+
+.list__countries > div {
+  margin-right: 10px;
+}
